@@ -15,13 +15,13 @@ The real estate agency wants to provide homeowners with advice on how home renov
 
 The analysis aims to answer below questions in trying to predict the prices;
 
-    1.To determine how much would adding an extension to the lot area of the home likely increase sale price?
+   1.To determine how much would adding an extension to the lot area of the home likely increase sale price?
 
-    2. To examine how much would adding an additional bathroom likely increase sale price?
+   2. To examine how much would adding an additional bathroom likely increase sale price?
     
-    3. To determine how much would adding an extension to the living area of the home likely increase sale price?
+   3. To determine how much would adding an extension to the living area of the home likely increase sale price?
 
-    4. To examine how much would adding an additional floor to a house likely increase sale price?
+   4. To examine how much would adding an additional floor to a house likely increase sale price?
 
 
 ## The Data
@@ -82,22 +82,22 @@ Based on the heatmap, we can back up our findings from the scatter plot that ind
 ZIPCODE--is a strong predictor of a homes value, the saying "Location, Location, Location" holds true, as even in a similar area the location plays a huge factor in the value of a home.
 Based on the coefficients of different localities, moving from zip code 98002 to 98039 shows that the prices changes by USD 228,087 and USD 298,174 respectively, as compared to our reference categorical variable which is zipcode 98001. This is a clear indication that locality of the house has high influence on the price.
 
-    *Coefficient for `sqft_living` is $123487.74911877913
+   *Coefficient for `sqft_living` is $123487.74911877913
      For a one-unit increase in square-foot living area, we see an associated increase in around $123487.74 in selling price of the houses.
      
-    *Coefficient for `sqft_living15` is $66394.5581188671
+   *Coefficient for `sqft_living15` is $66394.5581188671
      For a one-unit increase in square-foot living area15, we see an associated increase in around $66394.55 in selling price of the houses.
      
-    *Coefficient for `floors` is $42072.219101705305
+   *Coefficient for `floors` is $42072.219101705305
      For a one-unit increase in number of floors of the house, we see an associated increase in around $42072.21 in selling price of the houses.
      
-    *Coefficient for `bathrooms` is $46540.35864547536
+   *Coefficient for `bathrooms` is $46540.35864547536
      For a one-unit increase in the number of bathrooms, we see an associated increase in around $46540.35 in selling price of the houses.
      
-    *Coefficient for `sqft_lot` is $20891.42559555274
+   *Coefficient for `sqft_lot` is $20891.42559555274
      For a one-unit increase in square-foot of the lot area, we see an associated increase in around $20891.42 in selling price of the houses.
      
-    *Coefficient for `bedrooms` is $-53899.42895874723
+   *Coefficient for `bedrooms` is $-53899.42895874723
      For a one-unit increase in the number of bedrooms, we see an associated decrease in around $53899.42 in selling price of the houses. This particular finding caught our attention as this is not the case in the real world, whereby as you increase the number of bedrooms in a house, the price of the house tends to increase too.
      
 5. The plot to test for homoscedasticity reveals that the residuals are now homoscedastic because they are converging and appear to be having an equal variance. So this assumption remains satisfied.
